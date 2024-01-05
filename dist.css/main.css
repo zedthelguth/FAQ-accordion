@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(../dist/images/background-pattern-desktop.svg) no-repeat;
+  background-color: hsl(275, 100%, 97%);
+  background-size: 100vw;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  background: hsl(0, 0%, 100%);
+  font-family: "Work Sans", sans-serif;
+  border-radius: 0.625rem;
+  max-width: 80vw;
+  padding: 2.7rem 1.25rem;
+}
+
+details summary::marker {
+  content: "";
+}
+
+h1, summary {
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  font-weight: weight(bold);
+  font-size: 3rem;
+  margin: 1.3rem 1.3rem 2.5rem 1.3rem;
+}
+
+h1 img {
+  padding: 0 1.25rem;
+}
+
+p {
+  font-weight: weight(regular);
+  color: hsl(292, 16%, 49%);
+}
+
+details {
+  max-width: 540px;
+  margin: 2.7rem 2rem;
+  border-bottom: 1px solid hsl(275, 100%, 97%);
+}
+details:last-child {
+  border-bottom: none;
+  padding: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+summary {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1.2rem;
+  justify-content: space-between;
+  color: hsl(292, 42%, 14%);
+}
+summary:hover {
+  color: #AD28EB;
+}/*# sourceMappingURL=main.css.map */
